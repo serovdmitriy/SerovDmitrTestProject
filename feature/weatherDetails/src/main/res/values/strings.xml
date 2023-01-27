@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="description">Description: %s</string>
+    <string name="current_air_temperature">Current air temperature: %s°</string>
+    <string name="min_max_temp">Min temp: %s°  Max temp: %s°</string>
+    <string name="air_humidity">Humidity: %s%%</string>
+    <string name="wind_speed">Wind speed: %s m/s</string>
+</resources>

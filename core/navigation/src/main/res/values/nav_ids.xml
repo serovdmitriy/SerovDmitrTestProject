@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hosts -->
+    <item name="navRootHost" type="id"  />
+    <item name="navOnboardingHost" type="id"  />
+    <item name="navDashboardHost" type="id"  />
+
+    <!-- Root -->
+    <item name="nav_root_graph" type="id"/>
+
+    <item name="city_list_flow" type="id"/>
+    <item name="weather_details_flow" type="id"/>
+    <item name="login_flow" type="id"/>
+    <item name="login2_flow" type="id"/>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/city_list_flow"
+    app:startDestination="@id/cityListFragment">
+
+    <fragment
+        android:id="@+id/cityListFragment"
+        android:name="com.example.citylist.presentation.CityListFragment"
+        android:label="CityListFragment" />
+
+    <action
+        android:id="@+id/openWeatherDetails"
+        app:destination="@id/weather_details_flow">
+
+        <argument
+            android:name="coord"
+            app:argType="com.example.model.domain.city.CoordModel" />
+    </action>
+</navigation>
